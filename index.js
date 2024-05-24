@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyParser.json({ limit: "20mb" }));
 
 mongoose
-  .connect("mongodb://localhost:27017", {
+  .connect("mongodb+srv://asi-ems-admin:L8BwSiDNtXSwPXxO@asi-ems.rhqk5fi.mongodb.net/?retryWrites=true&w=majority&appName=asi-ems", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
