@@ -7,7 +7,7 @@ const DocumentSchema = new Schema({
         required: true
     },
     documentNumber: {
-        type: Number,
+        type: String,
         required: true
     },
     uploaderName: {
